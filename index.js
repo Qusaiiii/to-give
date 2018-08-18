@@ -45,7 +45,7 @@ client.on('message',async message => {
                 collected.first().delete();
                 try {
                   let giveEmbed = new Discord.RichEmbed()
-                  .setAuthor(message.guild.name, message.guild.iconURL)
+                  .setAuthor(`Tanki Online`)
                   .setTitle(title)
                   .setDescription(`Time : ${duration / 60000} Minute`)
                   .setFooter(message.author.username, message.author.avatarURL);
